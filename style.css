@@ -1,28 +1,40 @@
 body{
-font-family: Arial;
-background:#f2f2f2;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+margin:0;
 text-align:center;
+color:white;
 }
 
 .container{
-margin-top:100px;
+margin-top:80px;
 }
 
 button{
-padding:10px 20px;
+padding:12px 25px;
 margin:10px;
 font-size:16px;
-cursor:pointer;
 border:none;
-background:#007BFF;
-color:white;
-border-radius:5px;
+border-radius:8px;
+background:white;
+color:#333;
+cursor:pointer;
+transition:0.3s;
 }
 
 button:hover{
-background:#0056b3;
+transform:scale(1.1);
 }
 
-h1{
-color:#333;
+.videoBox{
+margin-top:20px;
+}
+
+.card{
+background:white;
+color:black;
+padding:30px;
+border-radius:10px;
+width:350px;
+margin:auto;
 }
