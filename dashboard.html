@@ -13,23 +13,22 @@
 
 <h1 id="timer">25:00</h1>
 
-<button onclick="startTimer()">Start</button>
+<button onclick="startTimer()">Start Timer</button>
 <button onclick="resetTimer()">Reset</button>
 
-<hr>
+<br><br>
 
-<h2>Learning Analytics</h2>
+<h2>Study Analytics</h2>
 
-<p>Study Hours: <span id="hours">0</span></p>
-<p>Topics Completed: <span id="topics">0</span></p>
-
-<button onclick="addHour()">Add Study Hour</button>
-<button onclick="addTopic()">Complete Topic</button>
+<canvas id="studyChart" width="400" height="200"></canvas>
 
 </div>
 
-<script src="js/timer.js"></script>
-<script src="js/analytics.js"></script>
+<!-- Chart library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Timer javascript -->
+<script src="timer.js"></script>
 
 </body>
 </html>
