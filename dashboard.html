@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Study Timer</h2>
+
+<h1 id="timer">25:00</h1>
+
+<button onclick="startTimer()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+
+<hr>
+
+<h2>Learning Analytics</h2>
+
+<p>Study Hours: <span id="hours">0</span></p>
+<p>Topics Completed: <span id="topics">0</span></p>
+
+<button onclick="addHour()">Add Study Hour</button>
+<button onclick="addTopic()">Complete Topic</button>
+
+</div>
+
+<script src="js/timer.js"></script>
+<script src="js/analytics.js"></script>
+
+</body>
+</html>
