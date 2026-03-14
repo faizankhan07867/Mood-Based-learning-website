@@ -11,11 +11,23 @@
 
 <h2>Select Your Mood</h2>
 
-<button onclick="recommend('tired')">😴 Tired</button>
-<button onclick="recommend('stressed')">😣 Stressed</button>
-<button onclick="recommend('motivated')">😎 Motivated</button>
+<button onclick="recommendMood('tired')">😴 Tired</button>
+<button onclick="recommendMood('stressed')">😣 Stressed</button>
+<button onclick="recommendMood('motivated')">😎 Motivated</button>
 
 <p id="suggestion"></p>
+
+<div id="videoBox"></div>
+
+<br><br>
+
+<h3>Detect Mood Using Camera</h3>
+
+<video id="video" width="300" autoplay></video>
+<br>
+<button onclick="startCamera()">Start Camera</button>
+
+<br><br>
 
 <a href="dashboard.html">
 <button>Go to Dashboard</button>
@@ -23,7 +35,7 @@
 
 </div>
 
-<script src="js/mood.js"></script>
+<script src="mood.js"></script>
 
 </body>
 </html>
